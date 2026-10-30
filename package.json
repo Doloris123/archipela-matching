@@ -1,0 +1,30 @@
+{
+  "name": "archipela-matching",
+  "version": "0.1.0",
+  "description": "Constraint-aware micro-help matching and capacitated assignment for Archipela (研屿)",
+  "type": "module",
+  "license": "MIT",
+  "main": "matching.mjs",
+  "exports": {
+    ".": "./matching.mjs",
+    "./matching": "./matching.mjs",
+    "./optimizer": "./optimizer.mjs"
+  },
+  "scripts": {
+    "test": "node --test optimizer.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "matching",
+    "assignment",
+    "branch-and-bound",
+    "open-source",
+    "archipela"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2365274664/archipela-matching.git"
+  }
+}

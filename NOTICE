@@ -1,0 +1,15 @@
+Archipela Matching (archipela-matching)
+=======================================
+
+This repository contains only the self-developed ranking and capacitated
+assignment algorithms used by 研屿 Archipela. It does not bundle model weights.
+
+Optional upstream (not required to run unit tests)
+--------------------------------------------------
+When embedding scores are supplied by the caller (for example from
+BAAI/bge-small-zh-v1.5 via Xenova ONNX exports and @huggingface/transformers),
+those components remain under their own licenses (typically MIT for the
+referenced BGE small Chinese checkpoint). Callers must retain upstream
+LICENSE/NOTICE and attribution when redistributing models.
+
+This package itself is MIT-licensed; see LICENSE.
